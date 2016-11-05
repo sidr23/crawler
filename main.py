@@ -19,7 +19,7 @@ def crawl():
     crawled_links = file_to_set(CRAWLED_FILE)
 
     # print queued_links
-    if len(queued_links) > 0 and len(crawled_links) <= 1000:
+    if len(queued_links) > 0 and len(Spider.crawled) <= 1000:
         print (str(len(queued_links)) + ' links in queue')
         create_jobs()
 
