@@ -5,7 +5,7 @@ from domain import *
 from general import *
 
 PROJECT_NAME = 'Webcrawler'
-HOME_PAGE= 'https://thenewboston.com'
+HOME_PAGE= 'https://blog.scrapinghub.com'
 DOMAIN_NAME = get_domain_name(HOME_PAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
